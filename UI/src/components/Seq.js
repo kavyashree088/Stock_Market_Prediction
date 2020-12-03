@@ -36,7 +36,15 @@ export default class Seq extends Component {
                     ></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. Input Sequence Length: 15</p>
+                      <p>d. Target Sequence Length: 15</p>
+                      <p>e. Number of neurons in each layer: 35</p>
+                      <p>f. Epochs: 15</p>
+                      <p>g. Mean Absolute Percentage Error: 10.86</p>
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -62,7 +70,15 @@ export default class Seq extends Component {
                     ></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. Input Sequence Length: 15</p>
+                      <p>d. Target Sequence Length: 15</p>
+                      <p>e. Number of neurons in each layer: 35</p>
+                      <p>f. Epochs: 15</p>
+                      <p>g. Mean Absolute Percentage Error: 10.86</p>
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -88,7 +104,15 @@ export default class Seq extends Component {
                     ></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. Input Sequence Length: 15</p>
+                      <p>d. Target Sequence Length: 15</p>
+                      <p>e. Number of neurons in each layer: 35</p>
+                      <p>f. Epochs: 15</p>
+                      <p>g. Mean Absolute Percentage Error: 10.86</p>
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -114,7 +138,15 @@ export default class Seq extends Component {
                     ></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. Input Sequence Length: 15</p>
+                      <p>d. Target Sequence Length: 15</p>
+                      <p>e. Number of neurons in each layer: 35</p>
+                      <p>f. Epochs: 15</p>
+                      <p>g. Mean Absolute Percentage Error: 10.86</p>
+                    </div>
                   </Col>
                 </Row>
               </div>

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Col, Container, Image, Nav, Row, Tab, Tabs } from "react-bootstrap";
 import lr_apple_1 from "../Images/LR_APP_1.png";
-import lr_apple_2 from "../Images/LR_APP_2.png";
+import lr_apple_2 from "../Images/lr_apple_2.png";
 import lr_apple_3 from "../Images/LR_APP_3.png";
 import lr_amd_1 from "../Images/LR_AMD_1.png";
 import lr_amd_2 from "../Images/LR_AMD_2.png";
@@ -51,10 +51,10 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
                       <p>e. Data Scaling: Before Train:Test split</p>
-                      <p>f. Accuracy: 0.10</p>
+                      <p>f. Accuracy: 1.00</p>
                     </div>
                   </Col>
                 </Row>
@@ -62,7 +62,7 @@ export default class LinearRegression extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Linear Regression</h5>
+                  <h5>2. Linear Regression with Weight Vectors</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -78,9 +78,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.99</p>
                     </div>
                   </Col>
@@ -90,7 +90,7 @@ export default class LinearRegression extends Component {
 
               <Row>
                 <div class="exp">
-                  <h5>3. Linear Regression with vectors</h5>
+                  <h5>3. Linear Regression with Feature-Set</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -106,9 +106,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
-                      <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
+                      <p>d. Feature-set: Volume</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.16</p>
                     </div>
                   </Col>
@@ -143,7 +143,7 @@ export default class LinearRegression extends Component {
                       <p>c. Regression Score Function: R2</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
                       <p>e. Data Scaling: Before Train:Test split</p>
-                      <p>f. Accuracy: 0.10</p>
+                      <p>f. Accuracy: 1.00</p>
                     </div>
                   </Col>
                 </Row>
@@ -151,7 +151,7 @@ export default class LinearRegression extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Linear Regression</h5>
+                  <h5>2. Linear Regression with Weight Vectors</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -165,7 +165,7 @@ export default class LinearRegression extends Component {
                       <p>b. Window Size: 60</p>
                       <p>c. Regression Score Function: R2</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.99</p>
                     </div>
                   </Col>
@@ -175,7 +175,7 @@ export default class LinearRegression extends Component {
 
               <Row>
                 <div class="exp">
-                  <h5>3. Linear Regression with vectors</h5>
+                  <h5>3. Linear Regression with Feature-Set</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -187,9 +187,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
-                      <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
+                      <p>d. Feature-set: Volume</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.16</p>
                     </div>
                   </Col>
@@ -221,10 +221,10 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
                       <p>e. Data Scaling: Before Train:Test split</p>
-                      <p>f. Accuracy: 0.10</p>
+                      <p>f. Accuracy: 1.00</p>
                     </div>
                   </Col>
                 </Row>
@@ -232,7 +232,7 @@ export default class LinearRegression extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Linear Regression</h5>
+                  <h5>2. Linear Regression with Weight Vectors</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -244,9 +244,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.99</p>
                     </div>
                   </Col>
@@ -256,7 +256,7 @@ export default class LinearRegression extends Component {
 
               <Row>
                 <div class="exp">
-                  <h5>3. Linear Regression with vectors</h5>
+                  <h5>3. Linear Regression with Feature-Set</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -268,9 +268,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
-                      <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
+                      <p>d. Feature-set: Volume</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.16</p>
                     </div>
                   </Col>
@@ -302,10 +302,10 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
                       <p>e. Data Scaling: Before Train:Test split</p>
-                      <p>f. Accuracy: 0.10</p>
+                      <p>f. Accuracy: 1.00</p>
                     </div>
                   </Col>
                 </Row>
@@ -313,7 +313,7 @@ export default class LinearRegression extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Linear Regression</h5>
+                  <h5>2. Linear Regression with Weight Vectors</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -325,9 +325,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
                       <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.99</p>
                     </div>
                   </Col>
@@ -337,7 +337,7 @@ export default class LinearRegression extends Component {
 
               <Row>
                 <div class="exp">
-                  <h5>3. Linear Regression with vectors</h5>
+                  <h5>3. Linear Regression with Feature-Set</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -349,9 +349,9 @@ export default class LinearRegression extends Component {
                     <div style={{ textAlign: "left" }}>
                       <p>a. Train:Test Ratio: 80:20</p>
                       <p>b. Window Size: 60</p>
-                      <p>c. Regression Score Function: R2</p>
-                      <p>d. Feature-set: Close, Adj.Close, Volume</p>
-                      <p>e. Data Scaling: Before Train:Test split</p>
+                      <p>c. Regression Score Function: R&sup2;</p>
+                      <p>d. Feature-set: Volume</p>
+                      <p>e. Data Scaling: After Train:Test split</p>
                       <p>f. Accuracy: 0.16</p>
                     </div>
                   </Col>

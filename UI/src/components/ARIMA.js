@@ -24,7 +24,7 @@ export default class ARIMA extends Component {
             <Container>
               <Row>
                 <h3 class="heading">
-                  Auto Regressive Integrated Moving Average (ARIMA))
+                  Auto Regressive Integrated Moving Average (ARIMA)
                 </h3>
               </Row>
 
@@ -38,7 +38,12 @@ export default class ARIMA extends Component {
                     ></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. p,d,q : 1,1,1</p>
+                      <p>d. Mean Absolute Percentage Error: 29.208</p>
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -52,7 +57,7 @@ export default class ARIMA extends Component {
             <Container>
               <Row>
                 <h3 class="heading">
-                  Auto Regressive Integrated Moving Average (ARIMA))
+                  Auto Regressive Integrated Moving Average (ARIMA)
                 </h3>
               </Row>
 
@@ -62,7 +67,12 @@ export default class ARIMA extends Component {
                     <Image width="600px" height="400px" src={arima_amd}></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. p,d,q : 1,1,1</p>
+                      <p>d. Mean Absolute Percentage Error: 29.208</p>
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -76,7 +86,7 @@ export default class ARIMA extends Component {
             <Container>
               <Row>
                 <h3 class="heading">
-                  Auto Regressive Integrated Moving Average (ARIMA))
+                  Auto Regressive Integrated Moving Average (ARIMA)
                 </h3>
               </Row>
 
@@ -90,7 +100,12 @@ export default class ARIMA extends Component {
                     ></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. p,d,q : 1,1,1</p>
+                      <p>d. Mean Absolute Percentage Error: 29.208</p>
+                    </div>
                   </Col>
                 </Row>
               </div>
@@ -104,7 +119,7 @@ export default class ARIMA extends Component {
             <Container>
               <Row>
                 <h3 class="heading">
-                  Auto Regressive Integrated Moving Average (ARIMA))
+                  Auto Regressive Integrated Moving Average (ARIMA)
                 </h3>
               </Row>
 
@@ -114,7 +129,12 @@ export default class ARIMA extends Component {
                     <Image width="600px" height="400px" src={arima_dis}></Image>
                   </Col>
                   <Col>
-                    <div style={{ textAlign: "left" }}></div>
+                    <div style={{ textAlign: "left" }}>
+                      <p>a. Train:Test Ratio: 80:20</p>
+                      <p>b. Feature set: Close</p>
+                      <p>c. p,d,q : 1,1,1</p>
+                      <p>d. Mean Absolute Percentage Error: 29.208</p>
+                    </div>
                   </Col>
                 </Row>
               </div>

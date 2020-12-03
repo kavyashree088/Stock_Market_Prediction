@@ -32,7 +32,7 @@ export default class TopNavBar extends Component {
               Help
             </Nav.Link>
             <Nav.Link id="top" href="/aboutUs">
-              About US
+              About Us
             </Nav.Link>
           </Nav>
         </Navbar>

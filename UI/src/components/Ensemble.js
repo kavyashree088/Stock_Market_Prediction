@@ -14,8 +14,8 @@ import apple4 from "../Images/Ensemble_APPLE_4.png";
 import apple5 from "../Images/Ensemble_APPLE_5.png";
 import apple6 from "../Images/Ensemble_APPLE_6.png";
 import apple7 from "../Images/Ensemble_APPLE_7.png";
-import tesla1 from "../Images/Ensemble_Tesla_1.png";
-import tesla2 from "../Images/Ensemble_Tesla_2.png";
+import tesla1 from "../Images/ensemble_tesla_1 2.PNG";
+import tesla2 from "../Images/ensemble_tesla_2 2.PNG";
 import tesla3 from "../Images/Ensemble_Tesla_3.png";
 import tesla4 from "../Images/Ensemble_Tesla_4.png";
 import tesla5 from "../Images/Ensemble_Tesla_5.png";
@@ -114,7 +114,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>4. Drift Adaption with no training</h5>
+                  <h5>4. Drift Adaption with no retraining</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -133,7 +133,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>5. Drift Adaption with re-training on past data</h5>
+                  <h5>5. Drift Adaption with retraining on past data</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -266,7 +266,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>4. Drift Adaption with no training</h5>
+                  <h5>4. Drift Adaption with no retraining</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -285,7 +285,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>5. Drift Adaption with re-training on past data</h5>
+                  <h5>5. Drift Adaption with retraining on past data</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -418,7 +418,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>4. Drift Adaption with no training</h5>
+                  <h5>4. Drift Adaption with no retraining</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -437,7 +437,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>5. Drift Adaption with re-training on past data</h5>
+                  <h5>5. Drift Adaption with retraining on past data</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -570,7 +570,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>4. Drift Adaption with no training</h5>
+                  <h5>4. Drift Adaption with no retraining</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -589,7 +589,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>5. Drift Adaption with re-training on past data</h5>
+                  <h5>5. Drift Adaption with retraining on past data</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>

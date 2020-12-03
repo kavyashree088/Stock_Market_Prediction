@@ -27,7 +27,7 @@ export default class KNN extends Component {
           >
             <Container>
               <Row>
-                <h3 class="heading">K Nearest Neighbors (KNN)</h3>
+                <h3 class="heading">K - Nearest Neighbors (KNN)</h3>
               </Row>
               <Row>
                 <div class="exp">
@@ -90,7 +90,7 @@ export default class KNN extends Component {
           >
             <Container>
               <Row>
-                <h3 class="heading">K nearest neighbors (KNN)</h3>
+                <h3 class="heading">K - Nearest neighbors (KNN)</h3>
               </Row>
               <Row>
                 <div class="exp">
@@ -145,7 +145,7 @@ export default class KNN extends Component {
           >
             <Container>
               <Row>
-                <h3 class="heading">K nearest neighbors (KNN)</h3>
+                <h3 class="heading">K - Nearest neighbors (KNN)</h3>
               </Row>
               <Row>
                 <div class="exp">
@@ -208,7 +208,7 @@ export default class KNN extends Component {
           >
             <Container>
               <Row>
-                <h3 class="heading">K nearest neighbors (KNN)</h3>
+                <h3 class="heading">K - Nearest neighbors (KNN)</h3>
               </Row>
               <Row>
                 <div class="exp">
