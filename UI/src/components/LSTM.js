@@ -5,6 +5,22 @@ import lstm2 from "../Images/LSTM_Stock_News.png";
 import lstm3 from "../Images/LSTM_Actual.png";
 import lstm4 from "../Images/LSTM_previous.png";
 import lstm5 from "../Images/LSTM_Cross_validation.png";
+import apple1 from "../Images/LSTM_APPLE_1.png";
+import apple2 from "../Images/LSTM_APPLE_2.png";
+import apple3 from "../Images/LSTM_APPLE_3.png";
+import apple4 from "../Images/LSTM_APPLE_4.png";
+import apple5 from "../Images/LSTM_APPLE_5.png";
+import tesla1 from "../Images/LSTM_TESLA_1.png";
+import tesla2 from "../Images/LSTM_TESLA_2.png";
+import tesla3 from "../Images/LSTM_TESLA_3.png";
+import tesla4 from "../Images/LSTM_TESLA_4.png";
+import tesla5 from "../Images/LSTM_TESLA_5.png";
+import disney1 from "../Images/LSTM_Dis_1.png";
+import disney2 from "../Images/LSTM_Dis_2.png";
+import disney3 from "../Images/LSTM_Dis_3.png";
+import disney4 from "../Images/LSTM_Dis_4.png";
+import disney5 from "../Images/LSTM_Dis_5.png";
+
 export default class LSTM extends Component {
   render() {
     return (
@@ -34,7 +50,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm1}></Image>
+                    <Image width="600px" height="400px" src={apple1}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -61,7 +77,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm2}></Image>
+                    <Image width="600px" height="400px" src={apple2}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -86,7 +102,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm3}></Image>
+                    <Image width="600px" height="400px" src={apple3}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -110,7 +126,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm4}></Image>
+                    <Image width="600px" height="400px" src={apple4}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -135,7 +151,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm5}></Image>
+                    <Image width="600px" height="400px" src={apple5}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -306,7 +322,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm1}></Image>
+                    <Image width="600px" height="400px" src={tesla1}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -333,7 +349,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm2}></Image>
+                    <Image width="600px" height="400px" src={tesla2}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -358,7 +374,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm3}></Image>
+                    <Image width="600px" height="400px" src={tesla3}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -382,7 +398,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm4}></Image>
+                    <Image width="600px" height="400px" src={tesla4}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -407,7 +423,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm5}></Image>
+                    <Image width="600px" height="400px" src={tesla5}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -442,7 +458,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm1}></Image>
+                    <Image width="600px" height="400px" src={disney1}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -469,7 +485,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm2}></Image>
+                    <Image width="600px" height="400px" src={disney2}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -494,7 +510,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm3}></Image>
+                    <Image width="600px" height="400px" src={disney3}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -518,7 +534,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm4}></Image>
+                    <Image width="600px" height="400px" src={disney4}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -543,7 +559,7 @@ export default class LSTM extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={lstm5}></Image>
+                    <Image width="600px" height="400px" src={disney5}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>

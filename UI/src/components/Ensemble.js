@@ -7,6 +7,28 @@ import en4 from "../Images/ensemble4.png";
 import en5 from "../Images/ensemble5.png";
 import en6 from "../Images/ensemble6.png";
 import en7 from "../Images/ensemble7.png";
+import apple1 from "../Images/Ensemble_APPLE_1.png";
+import apple2 from "../Images/Ensemble_APPLE_2.png";
+import apple3 from "../Images/Ensemble_APPLE_3.png";
+import apple4 from "../Images/Ensemble_APPLE_4.png";
+import apple5 from "../Images/Ensemble_APPLE_5.png";
+import apple6 from "../Images/Ensemble_APPLE_6.png";
+import apple7 from "../Images/Ensemble_APPLE_7.png";
+import tesla1 from "../Images/Ensemble_Tesla_1.png";
+import tesla2 from "../Images/Ensemble_Tesla_2.png";
+import tesla3 from "../Images/Ensemble_Tesla_3.png";
+import tesla4 from "../Images/Ensemble_Tesla_4.png";
+import tesla5 from "../Images/Ensemble_Tesla_5.png";
+import tesla6 from "../Images/Ensemble_Tesla_6.png";
+import tesla7 from "../Images/Ensemble_Tesla_7.png";
+import disney1 from "../Images/Ensemble_dis_1.png";
+import disney2 from "../Images/Ensemble_dis_2.png";
+import disney3 from "../Images/Ensemble_dis_3.png";
+import disney4 from "../Images/Ensemble_dis_4.png";
+import disney5 from "../Images/Ensemble_dis_5.png";
+import disney6 from "../Images/Ensemble_dis_6.png";
+import disney7 from "../Images/Ensemble_dis_7.png";
+
 export default class Ensemble extends Component {
   render() {
     return (
@@ -36,7 +58,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en1}></Image>
+                    <Image width="600px" height="400px" src={apple1}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -50,13 +72,13 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Stock data analysis with wighted Ensemble</h5>
+                  <h5>2. Stock data analysis with weighted Ensemble</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en2}></Image>
+                    <Image width="600px" height="400px" src={apple2}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -77,7 +99,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en3}></Image>
+                    <Image width="600px" height="400px" src={apple3}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -98,7 +120,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en4}></Image>
+                    <Image width="600px" height="400px" src={apple4}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -117,7 +139,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en5}></Image>
+                    <Image width="600px" height="400px" src={apple5}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -136,7 +158,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en6}></Image>
+                    <Image width="600px" height="400px" src={apple6}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -157,7 +179,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en7}></Image>
+                    <Image width="600px" height="400px" src={apple7}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -202,7 +224,7 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Stock data analysis with wighted Ensemble</h5>
+                  <h5>2. Stock data analysis with weighted Ensemble</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
@@ -340,7 +362,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en1}></Image>
+                    <Image width="600px" height="400px" src={tesla1}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -354,13 +376,13 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Stock data analysis with wighted Ensemble</h5>
+                  <h5>2. Stock data analysis with weighted Ensemble</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en2}></Image>
+                    <Image width="600px" height="400px" src={tesla2}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -381,7 +403,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en3}></Image>
+                    <Image width="600px" height="400px" src={tesla3}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -402,7 +424,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en4}></Image>
+                    <Image width="600px" height="400px" src={tesla4}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -421,7 +443,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en5}></Image>
+                    <Image width="600px" height="400px" src={tesla5}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -440,7 +462,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en6}></Image>
+                    <Image width="600px" height="400px" src={tesla6}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -461,7 +483,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en7}></Image>
+                    <Image width="600px" height="400px" src={tesla7}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -492,7 +514,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en1}></Image>
+                    <Image width="600px" height="400px" src={disney1}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -506,13 +528,13 @@ export default class Ensemble extends Component {
               <hr></hr>
               <Row>
                 <div class="exp">
-                  <h5>2. Stock data analysis with wighted Ensemble</h5>
+                  <h5>2. Stock data analysis with weighted Ensemble</h5>
                 </div>
               </Row>
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en2}></Image>
+                    <Image width="600px" height="400px" src={disney2}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -533,7 +555,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en3}></Image>
+                    <Image width="600px" height="400px" src={disney3}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -554,7 +576,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en4}></Image>
+                    <Image width="600px" height="400px" src={disney4}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -573,7 +595,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en5}></Image>
+                    <Image width="600px" height="400px" src={disney5}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -592,7 +614,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en6}></Image>
+                    <Image width="600px" height="400px" src={disney6}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
@@ -613,7 +635,7 @@ export default class Ensemble extends Component {
               <div style={{ marginBottom: "10px" }}>
                 <Row>
                   <Col sm={7}>
-                    <Image width="600px" height="400px" src={en7}></Image>
+                    <Image width="600px" height="400px" src={disney7}></Image>
                   </Col>
                   <Col>
                     <div style={{ textAlign: "left" }}>
