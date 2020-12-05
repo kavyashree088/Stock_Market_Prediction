@@ -33,45 +33,41 @@ export default class Disney extends Component {
     var data = [];
     var t_stock = null;
     var y_stock = null;
-    axios
-      .get(
-        "http://ec2-3-21-41-120.us-east-2.compute.amazonaws.com:3001/disneydata"
-      )
-      .then((response) => {
-        response.data.map((d) => {
-          var today = new Date(2020, 10, 24);
-          var yesterday = new Date(2020, 10, 23);
-          var value = d.Close;
-          var date = new Date(d.Date);
-          if (
-            today.getDate() === date.getDate() &&
-            today.getMonth() === date.getMonth() &&
-            today.getFullYear() === date.getFullYear()
-          ) {
-            console.log("here");
-            t_stock = value;
-          } else if (
-            yesterday.getDate() === date.getDate() &&
-            yesterday.getMonth() === date.getMonth() &&
-            yesterday.getFullYear() === date.getFullYear()
-          ) {
-            y_stock = value;
-          }
-          var date = new Date(d.Date);
-          var object = {
-            x: date,
-            y: value,
-          };
-          data.push(object);
-          return null;
-        });
-        this.setState({
-          graphdata: data,
-          trendData: data,
-          today: t_stock,
-          yesterday: y_stock,
-        });
+    axios.get("http://localhost:3001/disneydata").then((response) => {
+      response.data.map((d) => {
+        var today = new Date(2020, 10, 24);
+        var yesterday = new Date(2020, 10, 23);
+        var value = d.Close;
+        var date = new Date(d.Date);
+        if (
+          today.getDate() === date.getDate() &&
+          today.getMonth() === date.getMonth() &&
+          today.getFullYear() === date.getFullYear()
+        ) {
+          console.log("here");
+          t_stock = value;
+        } else if (
+          yesterday.getDate() === date.getDate() &&
+          yesterday.getMonth() === date.getMonth() &&
+          yesterday.getFullYear() === date.getFullYear()
+        ) {
+          y_stock = value;
+        }
+        var date = new Date(d.Date);
+        var object = {
+          x: date,
+          y: value,
+        };
+        data.push(object);
+        return null;
       });
+      this.setState({
+        graphdata: data,
+        trendData: data,
+        today: t_stock,
+        yesterday: y_stock,
+      });
+    });
   }
 
   trendDropdown = (event) => {
